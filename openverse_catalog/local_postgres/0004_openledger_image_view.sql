@@ -10,7 +10,7 @@ INSERT INTO public.image_popularity_metrics (
 ) VALUES
   ('flickr', 'views', 0.85),
   ('wikimedia', 'global_usage_count', 0.85),
-  ('stocksnap', 'page_views', 0.85);
+  ('stocksnap', 'favorites', 0.85);
 
 
 CREATE FUNCTION image_popularity_percentile(
